@@ -63,12 +63,13 @@ padding:0;
 
 }
 
-.pad{
-padding-top: 4%;
+.pad, .pad2{
+padding-top: 8%;
 padding-bottom: 2%;
 padding-left:0;
 
 }
+
 
 .bgB{
     background-color: var(--mainC);
@@ -132,7 +133,7 @@ background-image: url('./img/img6.jpg');
     display: inline-block;
     z-index: 1042;
     position: absolute;
-    margin-top:18%;
+    margin-top:24%;
     padding: 0;
     border: 0;
     }
@@ -175,17 +176,21 @@ padding:0rem;
     .row1 {background-image: url('./img/m_main.png');} 
     .row2 {background-image: url('./img/m_img2.png');}
     .row3 {background-image: url('./img/m_img3.png');}
+    .row5 {height:75vh;}
      
     .card {
-        width:15rem;
+        width:20rem;
         height:25rem;
         margin-top: 100%;}
 
     .c1 {margin-left:2rem;}
-    .c2 {margin-left:18rem;}
+    .c2 {display: none;}
     .c3 {display: none;}
     .c4 {margin-left:0%;}
     .logos {margin-top: 4%;}
+
+    .pad2 {margin-top: 8;}
+
 
     }
 
@@ -212,6 +217,3 @@ padding:0rem;
   }
   
 
-  /* <div class="bgB txt_W card c1 fade-in"></div>
-  <div class="bgB txt_W card c2 fade-in"></div>
-  <div class="bgB txt_W card c3 fade-in"></div> */
