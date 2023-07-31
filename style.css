@@ -1,4 +1,17 @@
 /* Public */
+
+html{
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+
+body, html {
+    height: 100% !important;
+}
+
+
+
+
 :root{
 --mainC: #005EB8;
 --subC: #0585FF;
@@ -14,6 +27,7 @@ body {
     font-family: 'Pretendard', sans-serif;
     color: var(--mainC);
     overflow-x: hidden;
+    touch-action: pan-x pan-y;
 }
 
 h1{
@@ -151,7 +165,12 @@ padding:0rem;
 
 @media (max-width: 768px) {
 
+    /* Your CSS code for mobile viewport */
 
+    .container, .container-fluid {
+        max-width: 100%;
+        overflow: hidden;
+    }
 
     .row1 {background-image: url('./img/m_main.png');} 
     .row2 {background-image: url('./img/m_img2.png');}
@@ -164,7 +183,7 @@ padding:0rem;
 
     .c1 {margin-left:2rem;}
     .c2 {margin-left:18rem;}
-    .c3 {margin-left:2rem;}
+    .c3 {display: none;}
     .c4 {margin-left:0%;}
     .logos {margin-top: 4%;}
 
